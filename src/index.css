@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Warm palette adjustments */
+:root{
+  --warm-100: #FFF7ED;
+  --warm-200: #FFEDD5;
+  --warm-300: #FDE68A;
+  --accent: #FB7185; /* coral */
+  --accent-2: #F59E0B; /* amber */
+}
+body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }

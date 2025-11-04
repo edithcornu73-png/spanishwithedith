@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="120" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#FFF1E6"/>
+      <stop offset="50%" stop-color="#FFD8B5"/>
+      <stop offset="100%" stop-color="#FFB4A2"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 28px/1.1 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #1f2937; }
+      .subtitle { font: 400 14px/1 'Inter', Arial, sans-serif; fill: #374151; opacity: 0.9; }
+    </style>
+  </defs>
+  <rect rx="16" width="400" height="120" fill="white" />
+  <g transform="translate(18,16)">
+    <circle cx="46" cy="44" r="40" fill="url(#g)" />
+    <text x="46" y="52" text-anchor="middle" font-family="Inter, Arial" font-weight="700" font-size="40" fill="#7c2d12">E</text>
+    <g transform="translate(100,12)">
+      <text class="title">Spanish with Edith</text>
+      <text class="subtitle" y="34">Profesora de Español · Clases online</text>
+    </g>
+  </g>
+</svg>
